@@ -60,7 +60,7 @@ $mult = min(2, max(1, get_theme_option("retina_ready")));
 						<div id="profile_data">
                             <?php if(!empty($user_firstname) || !empty($user_lastname)) : ?>                
 							<div class="profile_row">
-								<span class="th"><?php _e('Nombre', 'wpspace'); ?>:</span><span class="td"><?php echo $user_firstname.' Andrés '.$user_lastname.' Riffo'; ?></span>
+								<span class="th"><?php _e('Nombre', 'wpspace'); ?>:</span><span class="td"><?php echo $user_firstname.' Andrés '.$user_lastname.''; ?></span>
 							</div>
                             <?php endif; ?>
                             <?php if(!empty($user_birthday)) : ?>

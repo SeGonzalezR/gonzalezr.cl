@@ -48,10 +48,10 @@
 				 */
 			},
             imagePath: '<?php echo get_template_directory_uri(); ?>/js/jreject/images/',
-            header: 'Your browser is out of date', // Header Text
-            paragraph1: 'You are currently using an unsupported browser', // Paragraph 1
-            paragraph2: 'Please install one of the many optional browsers below to proceed',
-            closeMessage: 'Close this window at your own demise!' // Message below close window link
+            header: 'Tu Explorador está desactualizado', // Header Text
+            paragraph1: 'Actualmente estas viendo este sitio en un explorador que no es compatible con las últimas tecnologias que se usaron en este desarrollo.', // Paragraph 1
+            paragraph2: 'Favor instala Chrome, Firefox o alguno que vaya acorde a las nuevas tecnologías',
+            closeMessage: 'Cerrar!' // Message below close window link
         });
     });
         empt = '<?php _e("Necesito saber tu nombre", "wpspace"); ?>';

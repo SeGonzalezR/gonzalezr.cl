@@ -934,7 +934,7 @@ function submit_contact_form_callback() {
 	
 	if (trim($contact_email)!='') {
 		// $subj = sprintf(__('Site %s - Contact form message from %s', 'wpspace'), get_bloginfo('site_name'), $user_name);
-		$subj = sprintf(__('Contacto Web - %s', 'wpspace'), $user_name);
+		$subj = sprintf(__('[Contacto Gonzalezr.cl] - %s', 'wpspace'), $user_name);
 		$msg = "
 				Nombre: $user_name <br/>
 				E-mail: $user_email <br/>
