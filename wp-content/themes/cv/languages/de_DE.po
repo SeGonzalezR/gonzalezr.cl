@@ -1,0 +1,1211 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Shift CV v1.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-08-24 01:01:32+0000\n"
+"Last-Translator: Alexander Pfabel <wordpress@pfabel.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin/theme-options.php:367
+#@ wpspace
+msgid "You really want reset all options to default values ?"
+msgstr "Willst du wirklich alle Optionen auf Standardwerte zurücksetzen?"
+
+#: admin/theme-settings.php:21
+#@ wpspace
+msgid "General"
+msgstr "Allgemein"
+
+#: admin/theme-settings.php:24
+#@ wpspace
+msgid "Use as homepage"
+msgstr "Startseite"
+
+#: admin/theme-settings.php:25
+#@ wpspace
+msgid "What page use as homepage"
+msgstr "Seite, die als Startseite verwendet werden soll"
+
+#: admin/theme-settings.php:31
+#@ wpspace
+msgid "Theme style"
+msgstr "Designstil"
+
+#: admin/theme-settings.php:32
+#@ wpspace
+msgid "What style use for site decoration"
+msgstr "Stil, der fürs Theme verwendet werden soll"
+
+#: admin/theme-settings.php:38
+#@ wpspace
+msgid "Show Theme style switcher"
+msgstr "Stil-Wechsler"
+
+#: admin/theme-settings.php:39
+#@ wpspace
+msgid "Show theme style switcher"
+msgstr "Stil-Wechsler fürs Theme anzeigen"
+
+#: admin/theme-settings.php:45
+#@ wpspace
+msgid "Favicon"
+msgstr "Favicon"
+
+#: admin/theme-settings.php:46
+#@ wpspace
+msgid "Upload a 16px x 16px image that will represent your website's favicon.<br /><br /><em>To ensure cross-browser compatibility, we recommend converting the favicon into .ico format before uploading. (<a href=\"http://www.favicon.cc/\">www.favicon.cc</a>)</em>"
+msgstr "Lade ein BIld mit 16px x 16px hoch, das auf der Webseite als Favicon angezeigt wird.<br /><br /><em>Um browserübergreifende Kompatibilität zu gewährleisten empfehlen wir das Favicon vor dem Hochladen ins .ico-Format zu konvertieren. Zum Beispiel hiermit: (<a href=\"http://www.favicon.cc/\">www.favicon.cc</a>)</em>"
+
+#: admin/theme-settings.php:51
+#@ wpspace
+msgid "Portfolio posts per page"
+msgstr "Portfolio-Einträge pro Seite"
+
+#: admin/theme-settings.php:58
+#@ wpspace
+msgid "Sorting type for resume section"
+msgstr "Sortierung für den Abschnitt Lebenslauf"
+
+#: admin/theme-settings.php:59
+#@ wpspace
+msgid "Choose sorting type for resume section (ASC or DESC)"
+msgstr "Sortierung für den Abschnitt Lebenslauf wählen (aufsteigend oder absteigend)"
+
+#: admin/theme-settings.php:65
+#@ wpspace
+msgid "Show Google map on contact page"
+msgstr "Google Map auf Kontaktseite"
+
+#: admin/theme-settings.php:66
+#@ wpspace
+msgid "Show Google map in Contact section"
+msgstr "Google Map im Kontaktbereich anzeigen"
+
+#: admin/theme-settings.php:72
+#@ wpspace
+msgid "Show Contact form on contact page"
+msgstr "Kontaktformular auf Kontaktseite"
+
+#: admin/theme-settings.php:73
+#@ wpspace
+msgid "Show form in Contact section"
+msgstr "Formular im Kontaktbereich anzeigen"
+
+#: admin/theme-settings.php:79
+#@ wpspace
+msgid "Show post excerpt in portfolio preview"
+msgstr "Beitragsauszug in Portfoliovorschau"
+
+#: admin/theme-settings.php:80
+#@ wpspace
+msgid "Enable to show post content in portfolio section"
+msgstr "Aktivieren, um Beitragsinhalte im Portfolio-Bereich anzuzeigen"
+
+#: admin/theme-settings.php:86
+#@ wpspace
+msgid "Show \"Print\" and \"Download\" buttons in Resume section"
+msgstr "\"Drucken\"- und \"Download\"-Schaltflächen im Lebenslauf-Abschnitt"
+
+#: admin/theme-settings.php:87
+#@ wpspace
+msgid "Enable to show resume buttons"
+msgstr "Aktivieren, um Schaltflächen im Lebenslauf-Abschnitt anzuzeigen"
+
+#: admin/theme-settings.php:93
+#@ wpspace
+msgid "Resume file"
+msgstr "Lebenslauf-Datei"
+
+#: admin/theme-settings.php:94
+#@ wpspace
+msgid "Upload a resume file (.pdf, .doc, etc)"
+msgstr "Lebenslauf-Datei hochladen (.pdf, .docx, usw.)"
+
+#: admin/theme-settings.php:99
+#@ wpspace
+msgid "Footer copyright text"
+msgstr "Urheberrechtshinweis in Fußzeile"
+
+#: admin/theme-settings.php:105
+#@ wpspace
+msgid "Analytics tracking code"
+msgstr "Analytics-Tracking-Code"
+
+#: admin/theme-settings.php:111
+#@ wpspace
+msgid "Image dimensions"
+msgstr "Bildabmessungen"
+
+#: admin/theme-settings.php:112
+#@ wpspace
+msgid "What dimensions use for uploaded image: Original or \"Retina ready\" (twice enlarged)"
+msgstr "Abmessungen für hochgeladenes Bild: Original oder \"Retina ready\" (zweimal vergrößert)"
+
+#: admin/theme-settings.php:118
+#@ wpspace
+msgid "Additional filters in admin panel"
+msgstr "Zusätzliche Filter in Beitragsübersicht"
+
+#: admin/theme-settings.php:119
+#@ wpspace
+msgid "Show additional filters (on post format and tags) in admin panel page \"Posts\""
+msgstr "Zusätzliche Filter (bei Formatvorlagen und Schlagworten) auf Admin-Übersichtsseite der \"Beiträge\" anzeigen"
+
+#: admin/theme-settings.php:129
+#@ wpspace
+msgid "Section titles"
+msgstr "Abschnittstitel"
+
+#: admin/theme-settings.php:132
+#@ wpspace
+msgid "Profile section title"
+msgstr "Überschrift für Profil-Bereich"
+
+#: admin/theme-settings.php:138
+#@ wpspace
+msgid "Resume section title"
+msgstr "Überschrift für Lebenslauf-Bereich"
+
+#: admin/theme-settings.php:144
+#@ wpspace
+msgid "Portfolio section title"
+msgstr "Überschrift für Portfolio-Bereich"
+
+#: admin/theme-settings.php:150
+#@ wpspace
+msgid "Contacts section title"
+msgstr "Überschrift für Kontakt-Bereich"
+
+#: admin/theme-settings.php:161
+#@ wpspace
+msgid "Profile"
+msgstr "Profil"
+
+#: admin/theme-settings.php:164
+#@ wpspace
+msgid "Lastname"
+msgstr "Nachname"
+
+#: admin/theme-settings.php:170
+#@ wpspace
+msgid "Firstname"
+msgstr "Vorname"
+
+#: admin/theme-settings.php:176
+#@ wpspace
+msgid "Photo"
+msgstr "Foto"
+
+#: admin/theme-settings.php:182
+#@ wpspace
+msgid "Position"
+msgstr "Position"
+
+#: admin/theme-settings.php:188
+#@ wpspace
+msgid "Birthday"
+msgstr "Geburtstag"
+
+#: admin/theme-settings.php:194
+#: template-print.php:63
+#: template-resume.php:71
+#: template-resume.php:351
+#@ wpspace
+msgid "Address"
+msgstr "Adresse"
+
+#: admin/theme-settings.php:200
+#: template-print.php:66
+#: template-resume.php:74
+#: template-resume.php:354
+#@ wpspace
+msgid "Phone"
+msgstr "Telefon"
+
+#: admin/theme-settings.php:206
+#: comments.php:67
+#: includes/shortcodes.php:830
+#: template-print.php:69
+#: template-resume.php:77
+#: template-resume.php:357
+#@ wpspace
+msgid "Email"
+msgstr "E-Mail"
+
+#: admin/theme-settings.php:212
+#@ wpspace
+msgid "Contact form Email"
+msgstr "E-Mail-Adresse fürs Kontaktformular"
+
+#: admin/theme-settings.php:218
+#: template-print.php:72
+#: template-resume.php:80
+#: template-resume.php:360
+#@ wpspace
+msgid "Website"
+msgstr "Homepage"
+
+#: admin/theme-settings.php:224
+#@ wpspace
+msgid "Company"
+msgstr "Unternehmen"
+
+#: admin/theme-settings.php:230
+#@ wpspace
+msgid "Description"
+msgstr "Beschreibe deine Position"
+
+#: admin/theme-settings.php:238
+#@ wpspace
+msgid "Profile enable"
+msgstr "Profil aktivieren"
+
+#: admin/theme-settings.php:251
+#@ wpspace
+msgid "Social"
+msgstr "Social Media"
+
+#: admin/theme-settings.php:254
+#@ wpspace
+msgid "Show social icons in header"
+msgstr "Social Icons in Kopfzeile anzeigen"
+
+#: admin/theme-settings.php:260
+#: header.php:81
+#@ wpspace
+msgid "Twitter"
+msgstr "Twitter"
+
+#: admin/theme-settings.php:266
+#: header.php:86
+#@ wpspace
+msgid "Skype"
+msgstr "Skype"
+
+#: admin/theme-settings.php:272
+#: header.php:80
+#@ wpspace
+msgid "Facebook"
+msgstr "Facebook"
+
+#: admin/theme-settings.php:278
+#: header.php:85
+#@ wpspace
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: admin/theme-settings.php:284
+#@ wpspace
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: admin/theme-settings.php:290
+#: header.php:84
+#@ wpspace
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: admin/theme-settings.php:296
+#@ wpspace
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: admin/theme-settings.php:302
+#: header.php:79
+#@ wpspace
+msgid "RSS"
+msgstr "RSS"
+
+#: admin/theme-settings.php:308
+#@ wpspace
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: admin/theme-settings.php:331
+#: template-resume.php:26
+#@ wpspace
+msgid "Blog"
+msgstr "Blog"
+
+#: admin/theme-settings.php:334
+#@ wpspace
+msgid "Blog enabled"
+msgstr "Blog aktivieren"
+
+#: admin/theme-settings.php:342
+#@ wpspace
+msgid "Show post author"
+msgstr "Autor anzeigen"
+
+#: admin/theme-settings.php:350
+#@ wpspace
+msgid "Show post social share"
+msgstr "Beiträge in Soziale Netzwerke teilen"
+
+#: admin/theme-settings.php:358
+#@ wpspace
+msgid "Show post tags"
+msgstr "Schlagworte anzeigen"
+
+#: admin/theme-settings.php:366
+#@ wpspace
+msgid "Show related posts"
+msgstr "Ähnliche Beiträge anzeigen"
+
+#: admin/theme-settings.php:374
+#@ wpspace
+msgid "Show teaser in full post"
+msgstr "Teaser in ganzem Beitrag anzeigen"
+
+#: admin/theme-settings.php:382
+#@ wpspace
+msgid "Show \"Scroll to Comment Form\" button"
+msgstr "\"Zum Kommentieren scrollen\"-Schaltfläche anzeigen"
+
+#: admin/theme-settings.php:390
+#@ wpspace
+msgid "Blog post title level"
+msgstr "Überschrifts-Ebene für Blog-Beiträge"
+
+#: admin/theme-settings.php:391
+#@ wpspace
+msgid "Define html-tag for post title (SEO-option)"
+msgstr "HTML-Tag für die Beitrags-Überschrift festlegen (SEO-Option)"
+
+#: admin/theme-settings.php:402
+#@ wpspace
+msgid "Sidebars"
+msgstr "Seitenleisten"
+
+#: admin/theme-settings.php:405
+#@ wpspace
+msgid "Additional sidebars count"
+msgstr "Anzahl zusätzlicher Seitenleisten"
+
+#: admin/theme-settings.php:406
+#@ wpspace
+msgid "Select additional sidebars count (you can organize it in Theme Options - Widgets and use it in every page (post)"
+msgstr "Wähle die Anzahl zusätzlicher Seitenleisten (diese können unter Theme Options - Widgets und auf jeder (Beitrags-) Seite organisiert werden)"
+
+#: admin/theme-settings.php:412
+#@ wpspace
+msgid "Select sidebar for blog page"
+msgstr "Seiteneleiste für Blog wählen"
+
+#: admin/theme-settings.php:413
+#@ wpspace
+msgid "Select default sidebar for blog page."
+msgstr "Standardseitenleiste für Blog wählen"
+
+#: admin/theme-settings.php:419
+#@ wpspace
+msgid "Show sidebar on blog page"
+msgstr "Seitenleiste auf Blog anzeigen"
+
+#: admin/theme-settings.php:420
+#@ wpspace
+msgid "Show or hide sidebar on blog page."
+msgstr "Seitenleiste auf Blog anzeigen oder verbergen"
+
+#: admin/theme-settings.php:426
+#@ wpspace
+msgid "Select sidebar for single pages (posts)"
+msgstr "Seitenleiste auf (Beitrags-) Seite wählen"
+
+#: admin/theme-settings.php:427
+#@ wpspace
+msgid "Select default sidebar for all single pages (posts). In each page (post) you can override this settings."
+msgstr "Auswahl der Standardseitenleiste für alle Beitragsseiten. Auf jeder (Beitrags-) Seite kann diese Einstellung überschrieben werden."
+
+#: admin/theme-settings.php:433
+#@ wpspace
+msgid "Show sidebar on single pages (posts)"
+msgstr "Seitenleiste auf (Beitrags-) Seite anzeigen"
+
+#: admin/theme-settings.php:434
+#@ wpspace
+msgid "Show sidebar on single pages (posts). In each page (post) you can override this settings."
+msgstr "Anzeige der Seitenleiste auf Beitragsseiten. Auf jeder (Beitrags-) Seite kann diese Einstellung überschrieben werden."
+
+#: admin/theme-settings.php:446
+#@ wpspace
+msgid "Colors"
+msgstr "Farben"
+
+#: admin/theme-settings.php:449
+#@ wpspace
+msgid "Profile section color"
+msgstr "Farbe für den Profil-Abschnitt"
+
+#: admin/theme-settings.php:450
+#@ wpspace
+msgid "Color for Profile section tab"
+msgstr "Farbe für Abschnittsregisterkarte Profil"
+
+#: admin/theme-settings.php:455
+#@ wpspace
+msgid "Resume section color"
+msgstr "Farbe für Abschnitt Lebenslauf"
+
+#: admin/theme-settings.php:456
+#@ wpspace
+msgid "Color for Resume section tab"
+msgstr "Farbe für Abschnittsregisterkarte Lebenslauf"
+
+#: admin/theme-settings.php:461
+#@ wpspace
+msgid "Download resume button color"
+msgstr "Farbe für Download-Schaltfläche Lebenslauf"
+
+#: admin/theme-settings.php:462
+#@ wpspace
+msgid "Color of download link"
+msgstr "Farbe des Download-Links"
+
+#: admin/theme-settings.php:467
+#@ wpspace
+msgid "Portfolio section color"
+msgstr "Farbe des Abschnitts Portfolio"
+
+#: admin/theme-settings.php:468
+#@ wpspace
+msgid "Color for Portfolio section tab"
+msgstr "Farbe für Abschnittsregisterkarte Portfolio"
+
+#: admin/theme-settings.php:473
+#@ wpspace
+msgid "Contacts section color"
+msgstr "Farbe des Abschnitte Kontakt"
+
+#: admin/theme-settings.php:474
+#@ wpspace
+msgid "Color for Contacts section tab"
+msgstr "Farbe für Abschnittsregisterkarte Kontakt"
+
+#: admin/theme-settings.php:479
+#@ wpspace
+msgid "Go to Blog button color"
+msgstr "Farbe der Zum-Blog-Schaltfläche"
+
+#: admin/theme-settings.php:480
+#@ wpspace
+msgid "Color for \"Go to Blog\" button"
+msgstr "Farbe für \"Zum Blog\"-Schaltfläche"
+
+#: admin/theme-settings.php:485
+#@ wpspace
+msgid "Go to Profile button color"
+msgstr "Farbe der Zum-Profil-Schaltfläche"
+
+#: admin/theme-settings.php:486
+#@ wpspace
+msgid "Color for \"Back to Profile\" button"
+msgstr "Farbe der \"Zurück zum Profil\"-Schaltfläche"
+
+#: admin/theme-settings.php:491
+#@ wpspace
+msgid "Blog posts date section color"
+msgstr "Farbe des Datumsabschnitts in Beiträgen"
+
+#: admin/theme-settings.php:492
+#@ wpspace
+msgid "Color for \"Post date\" tab for each posts type"
+msgstr "Farbe des \"Beitragsdatum\"-Registers jeder Formatvorlage"
+
+#: admin/theme-settings.php:496
+#@ wpspace
+msgid "Standard post"
+msgstr "Standardbeitrag"
+
+#: admin/theme-settings.php:497
+#@ wpspace
+msgid "Color for \"Post date\" tab in Standard posts"
+msgstr "Farbe des \"Beitragsdatum\"-Registers in Standardbeiträgen"
+
+#: admin/theme-settings.php:502
+#@ wpspace
+msgid "Gallery post"
+msgstr "Galerie-Beitrag"
+
+#: admin/theme-settings.php:503
+#@ wpspace
+msgid "Color for \"Post date\" tab in Gallery posts"
+msgstr "Farbe des \"Beitragsdatum\"-Registers in Galerie-Beiträgen"
+
+#: admin/theme-settings.php:508
+#@ wpspace
+msgid "Audio post"
+msgstr "Audio"
+
+#: admin/theme-settings.php:509
+#@ wpspace
+msgid "Color for \"Post date\" tab in Audio posts"
+msgstr "Farbe des \"Beitragsdatum\"-Registers von Audio-Beiträgen"
+
+#: admin/theme-settings.php:514
+#@ wpspace
+msgid "Video post"
+msgstr "Video"
+
+#: admin/theme-settings.php:515
+#@ wpspace
+msgid "Color for \"Post date\" tab in Video posts"
+msgstr "Farbe des \"Beitragsdatum\"-Registers von Video-Beiträgen"
+
+#: admin/theme-settings.php:520
+#@ wpspace
+msgid "Link post"
+msgstr "Link"
+
+#: admin/theme-settings.php:521
+#@ wpspace
+msgid "Color for \"Post date\" tab in Link posts"
+msgstr "Farbe des \"Beitragsdatum\"-Registers von Linkbeiträgen"
+
+#: admin/theme-settings.php:538
+#@ wpspace
+msgid "Comments scroll button color"
+msgstr "Farbe der Scroll-zu-Kommentare-Schaltfläche"
+
+#: admin/theme-settings.php:539
+#@ wpspace
+msgid "Background color for \"scroll to comment form\" button"
+msgstr "Hintergrundfarbe der \"Scroll-zu-Kommentaren\"-Schaltfläche"
+
+#: comments.php:27
+#@ wpspace
+msgid "Comments"
+msgstr "Kommentare"
+
+#: comments.php:43
+#@ wpspace
+msgid "Comments are closed."
+msgstr "Kommentarfunktion für diesen Artikel geschlossen. "
+
+#: comments.php:53
+#@ wpspace
+msgid "Post comment"
+msgstr "Beitragskommentar"
+
+#: comments.php:55
+#@ wpspace
+msgid "Leave a comment"
+msgstr "Hinterlassen Sie einen Kommentar"
+
+#: comments.php:63
+#: includes/shortcodes.php:834
+#@ wpspace
+msgid "Your Message"
+msgstr "Ihre Nachricht"
+
+#: comments.php:65
+#: includes/shortcodes.php:826
+#: template-print.php:57
+#: template-resume.php:65
+#@ wpspace
+msgid "Name"
+msgstr "Name"
+
+#: comments.php:86
+#@ wpspace
+msgid "Trackback:"
+msgstr "Trackback:"
+
+#: comments.php:86
+#: comments.php:92
+#@ wpspace
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: comments.php:92
+#@ wpspace
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: comments.php:109
+#@ wpspace
+msgid "ago"
+msgstr "vor"
+
+#: comments.php:113
+#@ wpspace
+msgid "Your comment is awaiting moderation."
+msgstr "Ihr Kommentar wartet auf Freischaltung durch einen Administrator."
+
+#: footer.php:57
+#@ wpspace
+msgid "Name field can not be empty"
+msgstr "Das Namensfled muss ausgefüllt werden"
+
+#: footer.php:58
+#: footer.php:59
+#@ wpspace
+msgid "Too long name field"
+msgstr "Der Name ist zu lang"
+
+#: footer.php:60
+#@ wpspace
+msgid "Too short (or empty) email address"
+msgstr "Die E-Mail-Adresse ist zu kurz oder fehlt"
+
+#: footer.php:61
+#@ wpspace
+msgid "Too long email address"
+msgstr "Die E-Mail-Adresse ist zu lang"
+
+#: footer.php:62
+#@ wpspace
+msgid "Incorrect email address"
+msgstr "Die E-Mail-Adresse ist nicht gültig"
+
+#: footer.php:63
+#@ wpspace
+msgid "message can not be empty"
+msgstr "Das Nachrichtenfeld darf nicht leer bleiben"
+
+#: footer.php:64
+#@ wpspace
+msgid "Too long message"
+msgstr "Die Nachricht ist zu lang"
+
+#: functions.php:88
+#@ wpspace
+msgid "Blog Page Sidebar"
+msgstr "Seitenleiste der Blogseite"
+
+#: functions.php:96
+#@ wpspace
+msgid "Resume Page Sidebar"
+msgstr "Seitenleiste der Lebenslaufseite"
+
+#: functions.php:104
+#@ wpspace
+msgid "Contact Page Sidebar"
+msgstr "Seitenleiste der Kontaktseite"
+
+#: functions.php:113
+#, php-format
+#@ wpspace
+msgid "Custom Sidebar %s"
+msgstr "Benutzerdefinierte Seitenleiste %s"
+
+#: functions.php:359
+#@ wpspace
+msgid "Category color:"
+msgstr "Kategorie-Farbe:"
+
+#: functions.php:367
+#@ wpspace
+msgid "Category title background:"
+msgstr "Hintergrund der Kategorie-Überschrift:"
+
+#: functions.php:475
+#@ wpspace
+msgid "Custom settings for this category (and nested):"
+msgstr "Benutzerdefinierte Einstellungen für diese Kategorie (und verschachtelte):"
+
+#: functions.php:476
+#@ wpspace
+msgid "Select parameters for showing posts in this category and all nested categories. Attention: In each nested categories you can override this settings."
+msgstr "Wählen Sie die Parameter, wie Beiträge in Kategorien und allen verschachtelten Kategorien angezeigt werden sollen. Achtung: In jeder verschachtelten Kategorie können Sie diese Einstellung überschreiben."
+
+#: functions.php:480
+#@ wpspace
+msgid "Blog streampage settings:"
+msgstr "Einstellungen der Blog-Streamseite:"
+
+#: functions.php:481
+#@ wpspace
+msgid "Select parameters for streampage with this category."
+msgstr "Wählen Sie Parameter für die Streamseite mit dieser Kategorie."
+
+#: functions.php:486
+#: functions.php:523
+#@ wpspace
+msgid "Select sidebar:"
+msgstr "Seitenleiste wählen:"
+
+#: functions.php:498
+#@ wpspace
+msgid "Select sidebar, what should be showed with this category and nested."
+msgstr "Wählen Sie die Seitenleiste, die mit dieser Kategorie und weiteren verschachtelten angezeigt werden soll."
+
+#: functions.php:503
+#: functions.php:540
+#@ wpspace
+msgid "Show sidebar:"
+msgstr "Seitenleiste anzeigen:"
+
+#: functions.php:507
+#: functions.php:544
+#@ wpspace
+msgid "As in Site Options"
+msgstr "Wie in Seitenoptionen"
+
+#: functions.php:508
+#: functions.php:545
+#@ wpspace
+msgid "Show sidebar"
+msgstr "Seitenleiste anzeigen"
+
+#: functions.php:509
+#: functions.php:546
+#@ wpspace
+msgid "Hide sidebar (fullwidth page)"
+msgstr "Seitenleiste ausblenden (volle Seitenbreite)"
+
+#: functions.php:511
+#@ wpspace
+msgid "Show sidebar for this category and nested."
+msgstr "Seitenleiste für diese Kategorie und verschachtelte anzeigen"
+
+#: functions.php:517
+#@ wpspace
+msgid "Single page settings:"
+msgstr "Einstellungen für Einzelseiten:"
+
+#: functions.php:518
+#@ wpspace
+msgid "Select parameters for single pages with this category."
+msgstr "Wählen Sie die Parameter für Einzelseiten mit dieser Kategorie."
+
+#: functions.php:535
+#@ wpspace
+msgid "Select sidebar, what should be showed on single posts with this category and nested."
+msgstr "Wählen Sie die Seitenleiste, die auf einzelnen Beiträgen mit dieser Kategorie und verschachtelten angezeigt werden soll."
+
+#: functions.php:548
+#@ wpspace
+msgid "Show sidebar for single posts with this category and nested."
+msgstr "Seitenleiste für einzelne Beiträge mit dieser Kategorie und verschachtelte anzeigen."
+
+#: header.php:56
+#@ wpspace
+msgid "Dark"
+msgstr "Dunkel"
+
+#: header.php:56
+#@ wpspace
+msgid "Light"
+msgstr "Hell"
+
+#: header.php:82
+#@ wpspace
+msgid "Google+"
+msgstr "Google+"
+
+#: header.php:83
+#@ wpspace
+msgid "Linkedin"
+msgstr "LinkedIn"
+
+#: header.php:87
+#@ wpspace
+msgid "Pinterst"
+msgstr "Pinterst"
+
+#: includes/_wp_utils.php:147
+#@ wpspace
+msgid "Videos"
+msgstr "Videos"
+
+#: includes/_wp_utils.php:150
+#@ wpspace
+msgid "Galleries"
+msgstr "Galerien"
+
+#: includes/_wp_utils.php:185
+#@ wpspace
+msgid "Resume"
+msgstr "Lebenslauf"
+
+#: includes/_wp_utils.php:188
+#@ wpspace
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: includes/_wp_utils.php:191
+#@ wpspace
+msgid "Posts"
+msgstr "Beiträge"
+
+#: includes/_wp_utils.php:199
+#, php-format
+#@ wpspace
+msgid "All %s"
+msgstr "Alle %s"
+
+#: includes/_wp_utils.php:278
+#: includes/_wp_utils.php:280
+#: includes/_wp_utils.php:300
+#, php-format
+#@ wpspace
+msgid "%s"
+msgstr "%s"
+
+#: includes/_wp_utils.php:278
+#@ wpspace
+msgid "All Resume"
+msgstr "Den gesamten Lebenslauf"
+
+#: includes/_wp_utils.php:280
+#@ wpspace
+msgid "All Portfolio"
+msgstr "Das gesamte Portfolio"
+
+#: includes/_wp_utils.php:282
+#@ wpspace
+msgid "All Videos"
+msgstr "Alle Videos"
+
+#: includes/_wp_utils.php:284
+#@ wpspace
+msgid "All Photos"
+msgstr "Alle Fotos"
+
+#: includes/_wp_utils.php:286
+#@ wpspace
+msgid "All Posts"
+msgstr "Startseite"
+
+#: includes/_wp_utils.php:288
+#@ wpspace
+msgid "Author page"
+msgstr "Autorenseite"
+
+#: includes/_wp_utils.php:290
+#@ wpspace
+msgid "URL not found"
+msgstr "URL nicht gefunden"
+
+#: includes/_wp_utils.php:292
+#, php-format
+#@ wpspace
+msgid "Search Results for: %s"
+msgstr "Suchtreffer für: %s"
+
+#: includes/_wp_utils.php:294
+#, php-format
+#@ wpspace
+msgid "Daily Archives: %s"
+msgstr "Tagesarchiv: %s"
+
+#: includes/_wp_utils.php:296
+#, php-format
+#@ wpspace
+msgid "Monthly Archives: %s"
+msgstr "Monatsarchiv: %s"
+
+#: includes/_wp_utils.php:298
+#, php-format
+#@ wpspace
+msgid "Yearly Archives: %s"
+msgstr "Jahresarchiv: %s"
+
+#: includes/_wp_utils.php:302
+#, php-format
+#@ wpspace
+msgid "Tag: %s"
+msgstr "Tag: %s"
+
+#: includes/_wp_utils.php:304
+#, php-format
+#@ wpspace
+msgid "Attachment: %s"
+msgstr "Anhang: %s"
+
+#: includes/_wp_utils.php:332
+#, php-format
+#@ wpspace
+msgid "Page <span>%s</span> of <span>%s</span>"
+msgstr "Seite <span>%s</span> von <span>%s</span>"
+
+#: includes/_wp_utils.php:358
+#@ wpspace
+msgid "Post navigation"
+msgstr "Beitragsnavigation"
+
+#: includes/_wp_utils.php:360
+#@ wpspace
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: includes/_wp_utils.php:361
+#@ wpspace
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: includes/_wp_utils.php:364
+#@ wpspace
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ältere Beiträge"
+
+#: includes/_wp_utils.php:367
+#@ wpspace
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Neuere Beiträge <span class=\"meta-nav\">&rarr;</span>"
+
+#: includes/_wp_utils.php:408
+#, php-format
+#@ wpspace
+msgid "Page %s"
+msgstr "Seite %s"
+
+#: includes/_wp_utils.php:439
+#@ wpspace
+msgid "This post is password protected. To view it please enter your password inside the post."
+msgstr "Dieser Beitrag ist passwortgeschützt. Zum Anzeigen geben Sie bitte Ihr Passwort innerhalb des Beitrags ein."
+
+#. translators: Calendar caption: 1: month name, 2: 4-digit year
+#: includes/_wp_utils.php:800
+#, php-format
+#@ wpspace
+msgctxt "calendar caption"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: includes/_wp_utils.php:826
+#: includes/_wp_utils.php:834
+#, php-format
+#@ wpspace
+msgid "View posts for %1$s %2$s"
+msgstr "Beiträge von %1$s %2$s anzeigen"
+
+#: includes/shortcodes.php:838
+#@ wpspace
+msgid "Submit"
+msgstr "Senden"
+
+#: includes/shortcodes.php:899
+#@ wpspace
+msgid "Your message sended!"
+msgstr "Ihre Nachricht wurde gesendet!"
+
+#: includes/shortcodes.php:902
+#@ wpspace
+msgid "Transmit failed!"
+msgstr "Übertragung fehlgeschlagen!"
+
+#: includes/shortcodes.php:933
+#, php-format
+#@ wpspace
+msgid "Site %s - Contact form message from %s"
+msgstr "Seite %s - Kontaktformular-Nachricht von %s"
+
+#: includes/type-portfolio.php:53
+#@ wpspace
+msgid "Portfolio Item Link"
+msgstr "Portfolio-Element-Link"
+
+#: includes/type-portfolio.php:62
+#@ wpspace
+msgid "Portfolio link url"
+msgstr "Portfolio-Link-URL"
+
+#: includes/wp-pagenavi.php:129
+#@ wpspace
+msgid "Previous"
+msgstr "Vorherige"
+
+#: includes/wp-pagenavi.php:155
+#: includes/wp-pagenavi.php:206
+#@ wpspace
+msgid "Next"
+msgstr "Nächste"
+
+#: includes/wp-pagenavi.php:201
+#, php-format
+#@ wpspace
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "Seite %CURRENT_PAGE% von %TOTAL_PAGES%"
+
+#: includes/wp-pagenavi.php:204
+#@ wpspace
+msgid "First"
+msgstr "Erste"
+
+#: includes/wp-pagenavi.php:205
+#@ wpspace
+msgid "Last"
+msgstr "Letzte"
+
+#: includes/wp-pagenavi.php:207
+#@ wpspace
+msgid "Prev"
+msgstr "Vor"
+
+#: includes/wp-pagenavi.php:208
+#: includes/wp-pagenavi.php:209
+#@ wpspace
+msgid "..."
+msgstr "..."
+
+#: searchform.php:9
+#@ wpspace
+msgctxt "assistive text"
+msgid "Search"
+msgstr "Suchen"
+
+#: searchform.php:10
+#@ wpspace
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Suchen &hellip;"
+
+#: searchform.php:11
+#@ wpspace
+msgctxt "submit button"
+msgid "Search"
+msgstr "Suchen"
+
+#: single.php:44
+#: template-blog.php:45
+#@ wpspace
+msgid "Home"
+msgstr "Startseite"
+
+#: single.php:185
+#@ wpspace
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: single.php:214
+#@ wpspace
+msgid "Share this Story:"
+msgstr "Diesen Beitrag teilen:"
+
+#: single.php:239
+#: template-blog_author.php:16
+#@ wpspace
+msgid "About"
+msgstr "Über"
+
+#: single.php:271
+#@ wpspace
+msgid "Related posts"
+msgstr "Ähnliche Beiträge"
+
+#: single.php:301
+#@ wpspace
+msgid "Comment"
+msgstr "Kommentar"
+
+#: template-blog.php:91
+#: template-resume.php:180
+#@ wpspace
+msgid "<span class=\"readmore\">Read more</span>"
+msgstr "<span class=\"readmore\">mehr</span>"
+
+#: template-blog.php:252
+#@ wpspace
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hoppla! Diese Seite kann nicht gefunden werden."
+
+#: template-blog.php:254
+#@ wpspace
+msgid "It looks like nothing was found at this location. Please, "
+msgstr "Es sieht aus als ob nichts an dieser Stelle gefunden wurde. Bitte,"
+
+#: template-blog.php:255
+#@ wpspace
+msgid "start from our homepage"
+msgstr "beginnen Sie erneut auf unserer Startseite"
+
+#: template-blog.php:259
+#@ wpspace
+msgid "Search results:"
+msgstr "Suchtreffer:"
+
+#: template-blog.php:261
+#@ wpspace
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Sorry, aber nichts entsprach Ihrer Suchanfrage. Bitte versuchen Sie es erneut, mit anderen Suchbegriffen."
+
+#: template-print.php:60
+#: template-resume.php:68
+#@ wpspace
+msgid "Date of birth"
+msgstr "Geburtsdatum"
+
+#: template-resume.php:117
+#@ wpspace
+msgid "Print"
+msgstr "Drucken"
+
+#: template-resume.php:119
+#@ wpspace
+msgid "Download"
+msgstr "Herunterladen"
+
+#: template-resume.php:348
+#@ wpspace
+msgid "Contact info"
+msgstr "Kontaktinfo"
+
+#: template-resume.php:373
+#@ wpspace
+msgid "Let's keep in touch"
+msgstr "Lassen Sie uns in Verbindung bleiben"
+
+#: admin/theme-settings.php:314
+#: header.php:88
+#@ wpspace
+msgid "Xing"
+msgstr "Xing"
+
+#: admin/theme-settings.php:320
+#@ wpspace
+msgid "SlideShare"
+msgstr "SlideShare"
+
+#: admin/theme-settings.php:526
+#@ wpspace
+msgid "Status post"
+msgstr "Status"
+
+#: admin/theme-settings.php:527
+#@ wpspace
+msgid "Color for \"Post date\" tab in Status posts"
+msgstr "Farbe des \"Beitragsdatum\"-Registers von Status-Beiträgen"
+
+#: admin/theme-settings.php:532
+#@ wpspace
+msgid "Quote post"
+msgstr "Zitat"
+
+#: admin/theme-settings.php:533
+#@ wpspace
+msgid "Color for \"Post date\" tab in Quote posts"
+msgstr "Farbe des \"Beitragsdatum\"-Registers von Zitat-Beiträgen"
+
+#: functions.php:375
+#@ wpspace
+msgid "Category Order:"
+msgstr "Kategorie-Reihenfolge:"
+
+#: header.php:56
+#@ wpspace
+msgid "version"
+msgstr "Version"
+
+#: header.php:89
+#@ wpspace
+msgid "Slide Share"
+msgstr "Slide Share"
+
