@@ -445,13 +445,13 @@ blockquote.sc_quote .quotes:before {
 		margin-left: 16px;
 	}
 	#header .social_links li.vim a {
-		background: url(images/icon-vimeo.png) center 0 no-repeat;
+		background: url(images/icon-github.png) center 0 no-repeat;
 	}
 	#header .social_links li.lnkd a {
 		background: url(images/icon-linkedin.png) center 0 no-repeat;
 	}
 	#header .social_links li.drb a {
-		background: url(images/icon-dribble.png) center 0 no-repeat;
+		background: url(images/icon-instagram.png) center 0 no-repeat;
 	}
 	#header .social_links li.skp a {
 		background: url(images/icon-skype.png) center 0 no-repeat;
@@ -488,10 +488,10 @@ blockquote.sc_quote .quotes:before {
 	background-image: url(images/icon-linkedin-dark.png);
 }
 #header .social_links li.drb a:hover {
-	background-image: url(images/icon-dribble-dark.png);
+	background-image: url(images/icon-instagram-dark.png);
 }
 #header .social_links li.vim a:hover {
-	background-image: url(images/icon-vimeo-dark.png);
+	background-image: url(images/icon-github-dark.png);
 }
 #header .social_links li.skp a:hover {
 	background: url(images/icon-skype-dark.png) center 0 no-repeat;
@@ -893,7 +893,7 @@ ul.breadcrumbs li:first-child:before {
 	position: relative;
 	line-height: 59px;
 	text-align: center;
-	width: 135px;
+	width: 235px !important;
 }
 .section_header .section_title .section_name:after {
 	position: absolute;
@@ -990,12 +990,15 @@ ul.breadcrumbs li:first-child:before {
 	-ms-transition: all ease .4s;
 	-o-transition: all ease .4s;
 	transition: all ease .4s;
+	border-radius: 100%;
+
 }
-.opened #profile_photo {width: 117px;}
+.opened #profile_photo {width: 117px; border-radius: 100%;}
 #profile_photo img {
 	width: 100%;
 	vertical-align: top;
 	height: auto;
+	border-radius: 100%;
 }
 #profile_name_area {
 	overflow: hidden;
@@ -1096,7 +1099,7 @@ h1#profile_title .firstname {
 	line-height: 18px;
 	color: #9b9b9b;
 	padding-left: 23px;
-	text-transform: capitalize;
+	/*text-transform: capitalize;*/
 	margin-bottom: 0;
 }
 h3.category_title {

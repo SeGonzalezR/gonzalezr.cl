@@ -24,6 +24,7 @@ if (get_theme_option('homepage')=='blog')
 				$user_firstname = get_theme_option('user_firstname');
 				$user_photo = getResizedImageURL(get_theme_option('user_photo'), 117*$mult, 117*$mult);
 				$user_position = get_theme_option('user_position');
+				$user_photo = "https://graph.facebook.com/sebastian.gonzalez.r/picture?type=large&width=250&height=250";
 			?>
 			<div id="profile_header">
 				<div id="profile_user">

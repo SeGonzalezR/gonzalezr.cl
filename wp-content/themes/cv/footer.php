@@ -54,14 +54,13 @@
             closeMessage: 'Close this window at your own demise!' // Message below close window link
         });
     });
-        empt = '<?php _e("Name field can not be empty", "wpspace"); ?>';
-        to_lng = '<?php _e("Too long name field", "wpspace"); ?>';
-        to_lng = '<?php _e("Too long name field", "wpspace"); ?>';
-        empt_mail = '<?php _e("Too short (or empty) email address", "wpspace"); ?>';
-        to_lng_mail = '<?php _e("Too long email address", "wpspace"); ?>';
-        incor = '<?php _e("Incorrect email address", "wpspace"); ?>';
-        mes_empt = '<?php _e("message can not be empty", "wpspace"); ?>';
-        to_lng_mes = '<?php _e("Too long message", "wpspace"); ?>';
+        empt = '<?php _e("Necesito saber tu nombre", "wpspace"); ?>';
+        to_lng = '<?php _e("¿Tu nombre es realmente tan largo?", "wpspace"); ?>';
+        empt_mail = '<?php _e("Tu email es necesario", "wpspace"); ?>';
+        to_lng_mail = '<?php _e("Me parece que tu correo es demasiado largo.", "wpspace"); ?>';
+        incor = '<?php _e("El formato de tu email no es el correcto", "wpspace"); ?>';
+        mes_empt = '<?php _e("Hey! me interesa saber para que me contactas. Favor escribe tu mensaje!", "wpspace"); ?>';
+        to_lng_mes = '<?php _e("Es mucho el texto, favor resúmelo y sigamos hablando por email.", "wpspace"); ?>';
         <?php if(!isset($_COOKIE['tab_index'])): ?>
         init_ind = <?php echo get_theme_option('expanded_section') != '' ? get_theme_option('expanded_section') : -1; ?>
         <?php else: ?>
