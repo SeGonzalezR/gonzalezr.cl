@@ -56,16 +56,16 @@ $mult = min(2, max(1, get_theme_option("retina_ready")));
                                 </td>                 
         						<td id="profile_data">
         							<div class="profile_row">
-        								<span class="th"><?php _e('Name', 'wpspace'); ?>:</span><span class="td"><?php echo $user_lastname.' '.$user_firstname; ?></span>
+        								<span class="th"><?php _e('Nombre', 'wpspace'); ?>:</span><span class="td"><?php echo $user_lastname.' '.$user_firstname; ?></span>
         							</div>
         							<div class="profile_row">
-        								<span class="th"><?php _e('Date of birth', 'wpspace'); ?>:</span><span class="td"><?php echo $user_birthday; ?></span>
+        								<span class="th"><?php _e('Fecha Nacimiento', 'wpspace'); ?>:</span><span class="td"><?php echo $user_birthday; ?></span>
         							</div>
         							<div class="profile_row">
-        								<span class="th"><?php _e('Address', 'wpspace'); ?>:</span><span class="td"><?php echo $user_address; ?></span>
+        								<span class="th"><?php _e('Dirección', 'wpspace'); ?>:</span><span class="td"><?php echo $user_address; ?></span>
         							</div>
         							<div class="profile_row">
-        								<span class="th"><?php _e('Phone', 'wpspace'); ?>:</span><span class="td"><?php echo $user_phone; ?></span>
+        								<span class="th"><?php _e('Teléfono', 'wpspace'); ?>:</span><span class="td"><?php echo $user_phone; ?></span>
         							</div>
         							<div class="profile_row">
         								<span class="th"><?php _e('Email', 'wpspace'); ?>:</span><span class="td"><?php echo $user_email; ?></span>

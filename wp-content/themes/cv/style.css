@@ -1210,6 +1210,7 @@ h3.category_title .category_title_icon {
 	font-size: 14px;
 	line-height: 18px;
 	margin-bottom: 0;
+	color: #FFF;
 }
 .portfolio_items article h4 a {
 	color: #fff;
@@ -2767,4 +2768,8 @@ article.testi_post .post_content {
 article.testi_post .post_content > .icon-quote-left {color: #373737;float: left; margin-right: 9px; font-size: 22px; line-height: 20px;}
 #mainpage_accordion_area .testi_post .post_header {
 	margin-bottom: 20px;
+}
+
+.post_body.resume_post_body p , .content_text p, article p{
+	text-align: justify;
 }
