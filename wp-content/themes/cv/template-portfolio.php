@@ -25,6 +25,7 @@
 				<div class="section_body portfolio_section_body">
 					<h3>No soy diseñador, pero me especializo en Desarrollo Web</h3>
 					<p>Mi portafolio es muy particular, no consta de trabajos en los que haya diseñado. Sino que está enfocado principalmente en los sitios donde desarrollé soluciones a cada requerimiento del cliente. </p>
+					<p>Mas abajo podrás encontrar algunos de los desarrollos realizados en el último tiempo.</p>
 				<?php
 				while ($query->have_posts()) {
 					$query->the_post();
