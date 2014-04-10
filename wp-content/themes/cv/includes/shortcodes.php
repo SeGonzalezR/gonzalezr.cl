@@ -819,7 +819,7 @@ function sc_contact_form($atts, $content = null) {
 	return '
 			<div ' . ($id ? ' id="' . $id . '"' : '') . 'class="sc_contact_form">
 				'
-				. ($title ? '<h3 class="title">' . $title . '</h3>' : '')
+				. ($title ? '<h3 class="title">Hey, mantengamonos en contacto.</h3>' : '')
 				. ($description ? '<span class="description">' . $description . '</span>' : '')
 				. 
 				'
