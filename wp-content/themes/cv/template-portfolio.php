@@ -8,7 +8,7 @@
 		'post_password' => '',
 		'posts_per_page' => -1,	//max(3, get_theme_option('portfolio_ppp')),
 		'orderby' => 'date',
-		'order' => 'desc'
+		'order' => 'name'
 	);
 	$query = new WP_Query($args); 
 	$post_number = 0;
