@@ -85,7 +85,7 @@
                                         
                                         //$post_content = apply_filters('the_content', get_the_content('', true));
                                         //$post_content = str_replace(']]>', ']]&gt;', $post_content);
-                                        $post_content = apply_filters('the_content', get_the_content(__('<span class="readmore">Read more</span>', 'wpspace')));
+                                        $post_content = apply_filters('the_content', get_the_content(__('<span class="readmore">Leer Más</span>', 'wpspace')));
                                         $post_content = decorateMoreLink(str_replace(']]>', ']]&gt;', $post_content));
                                         $post_from = $post_to = '';
                                         $hide_to = true;                              
@@ -119,7 +119,7 @@
                                     <div class="post_header resume_post_header">
                                         <?php if($post_from != '' && $post_to != '') { 
                                             if($post_custom["resume_to"][0] == $post_custom["resume_from"][0]) {
-                                                $hide_to = false;
+                                                $hide_to = true;
                                             }
                                         ?>
                                                

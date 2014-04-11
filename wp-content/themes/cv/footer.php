@@ -48,20 +48,19 @@
 				 */
 			},
             imagePath: '<?php echo get_template_directory_uri(); ?>/js/jreject/images/',
-            header: 'Your browser is out of date', // Header Text
-            paragraph1: 'You are currently using an unsupported browser', // Paragraph 1
-            paragraph2: 'Please install one of the many optional browsers below to proceed',
-            closeMessage: 'Close this window at your own demise!' // Message below close window link
+            header: 'Tu Explorador está desactualizado', // Header Text
+            paragraph1: 'Actualmente estas viendo este sitio en un explorador que no es compatible con las últimas tecnologias que se usaron en este desarrollo.', // Paragraph 1
+            paragraph2: 'Favor instala Chrome, Firefox o alguno que vaya acorde a las nuevas tecnologías',
+            closeMessage: 'Cerrar!' // Message below close window link
         });
     });
-        empt = '<?php _e("Name field can not be empty", "wpspace"); ?>';
-        to_lng = '<?php _e("Too long name field", "wpspace"); ?>';
-        to_lng = '<?php _e("Too long name field", "wpspace"); ?>';
-        empt_mail = '<?php _e("Too short (or empty) email address", "wpspace"); ?>';
-        to_lng_mail = '<?php _e("Too long email address", "wpspace"); ?>';
-        incor = '<?php _e("Incorrect email address", "wpspace"); ?>';
-        mes_empt = '<?php _e("message can not be empty", "wpspace"); ?>';
-        to_lng_mes = '<?php _e("Too long message", "wpspace"); ?>';
+        empt = '<?php _e("Necesito saber tu nombre", "wpspace"); ?>';
+        to_lng = '<?php _e("¿Tu nombre es realmente tan largo?", "wpspace"); ?>';
+        empt_mail = '<?php _e("Tu email es necesario", "wpspace"); ?>';
+        to_lng_mail = '<?php _e("Me parece que tu correo es demasiado largo.", "wpspace"); ?>';
+        incor = '<?php _e("El formato de tu email no es el correcto", "wpspace"); ?>';
+        mes_empt = '<?php _e("Hey! me interesa saber para que me contactas. Favor escribe tu mensaje!", "wpspace"); ?>';
+        to_lng_mes = '<?php _e("Es mucho el texto, favor resúmelo y sigamos hablando por email.", "wpspace"); ?>';
         <?php if(!isset($_COOKIE['tab_index'])): ?>
         init_ind = <?php echo get_theme_option('expanded_section') != '' ? get_theme_option('expanded_section') : -1; ?>
         <?php else: ?>

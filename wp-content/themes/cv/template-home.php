@@ -42,6 +42,7 @@ $mult = min(2, max(1, get_theme_option("retina_ready")));
 						$user_company = get_theme_option('user_company');
 						$user_description = get_theme_option('user_description');
 						$profile_title = get_theme_option('profile_title');
+						$user_photo = "https://graph.facebook.com/sebastian.gonzalez.r/picture?type=large&width=250&height=250";
 					?>
 					<h2 class="section_title profile_section_title vis"><a href="#"><span class="icon icon-user"></span><span class="section_name"><?php echo $profile_title; ?></span></a><span class="section_icon"></span></h2>
 					<div id="profile_header">
@@ -59,22 +60,22 @@ $mult = min(2, max(1, get_theme_option("retina_ready")));
 						<div id="profile_data">
                             <?php if(!empty($user_firstname) || !empty($user_lastname)) : ?>                
 							<div class="profile_row">
-								<span class="th"><?php _e('Name', 'wpspace'); ?>:</span><span class="td"><?php echo $user_firstname.' Andrés '.$user_lastname.' Riffo'; ?></span>
+								<span class="th"><?php _e('Nombre', 'wpspace'); ?>:</span><span class="td"><?php echo $user_firstname.' Andrés '.$user_lastname.''; ?></span>
 							</div>
                             <?php endif; ?>
                             <?php if(!empty($user_birthday)) : ?>
 							<div class="profile_row">
-								<span class="th"><?php _e('Date of birth', 'wpspace'); ?>:</span><span class="td"><?php echo $user_birthday; ?></span>
+								<span class="th"><?php _e('Nacimiento', 'wpspace'); ?>:</span><span class="td"><?php echo $user_birthday; ?></span>
 							</div>
                             <?php endif; ?>
                             <?php if(!empty($user_address)) : ?>
 							<div class="profile_row">
-								<span class="th"><?php _e('Address', 'wpspace'); ?>:</span><span class="td"><?php echo $user_address; ?></span>
+								<span class="th"><?php _e('Dirección', 'wpspace'); ?>:</span><span class="td"><?php echo $user_address; ?></span>
 							</div>
                             <?php endif; ?>
                             <?php if(!empty($user_phone)) : ?>
 							<div class="profile_row">
-								<span class="th"><?php _e('Phone', 'wpspace'); ?>:</span><span class="td"><?php echo $user_phone; ?></span>
+								<span class="th"><?php _e('Teléfono', 'wpspace'); ?>:</span><span class="td"><?php echo $user_phone; ?></span>
 							</div>
                             <?php endif; ?>
                             <?php if(!empty($user_email)) : ?>

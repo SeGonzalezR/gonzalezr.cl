@@ -445,13 +445,13 @@ blockquote.sc_quote .quotes:before {
 		margin-left: 16px;
 	}
 	#header .social_links li.vim a {
-		background: url(images/icon-vimeo.png) center 0 no-repeat;
+		background: url(images/icon-github.png) center 0 no-repeat;
 	}
 	#header .social_links li.lnkd a {
 		background: url(images/icon-linkedin.png) center 0 no-repeat;
 	}
 	#header .social_links li.drb a {
-		background: url(images/icon-dribble.png) center 0 no-repeat;
+		background: url(images/icon-instagram.png) center 0 no-repeat;
 	}
 	#header .social_links li.skp a {
 		background: url(images/icon-skype.png) center 0 no-repeat;
@@ -488,10 +488,10 @@ blockquote.sc_quote .quotes:before {
 	background-image: url(images/icon-linkedin-dark.png);
 }
 #header .social_links li.drb a:hover {
-	background-image: url(images/icon-dribble-dark.png);
+	background-image: url(images/icon-instagram-dark.png);
 }
 #header .social_links li.vim a:hover {
-	background-image: url(images/icon-vimeo-dark.png);
+	background-image: url(images/icon-github-dark.png);
 }
 #header .social_links li.skp a:hover {
 	background: url(images/icon-skype-dark.png) center 0 no-repeat;
@@ -647,6 +647,7 @@ section#profile {
 	-ms-transition: all ease .6s;
 	-o-transition: all ease .6s;
 	transition: all ease .6s;
+	width: 190px;
 }
 .section_header.profile_section_header {border-top: none; min-height: 155px;}
 .section_header .section_title a,
@@ -893,7 +894,7 @@ ul.breadcrumbs li:first-child:before {
 	position: relative;
 	line-height: 59px;
 	text-align: center;
-	width: 135px;
+	width: 235px !important;
 }
 .section_header .section_title .section_name:after {
 	position: absolute;
@@ -990,12 +991,15 @@ ul.breadcrumbs li:first-child:before {
 	-ms-transition: all ease .4s;
 	-o-transition: all ease .4s;
 	transition: all ease .4s;
+	border-radius: 100%;
+
 }
-.opened #profile_photo {width: 117px;}
+.opened #profile_photo {width: 117px; border-radius: 100%;}
 #profile_photo img {
 	width: 100%;
 	vertical-align: top;
 	height: auto;
+	border-radius: 100%;
 }
 #profile_name_area {
 	overflow: hidden;
@@ -1005,7 +1009,7 @@ ul.breadcrumbs li:first-child:before {
 }
 h1#profile_title {
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 28px;
 	line-height: 35px;
 	font-weight: 700;
 	color: #373737;
@@ -1096,7 +1100,7 @@ h1#profile_title .firstname {
 	line-height: 18px;
 	color: #9b9b9b;
 	padding-left: 23px;
-	text-transform: capitalize;
+	/*text-transform: capitalize;*/
 	margin-bottom: 0;
 }
 h3.category_title {
@@ -1206,6 +1210,7 @@ h3.category_title .category_title_icon {
 	font-size: 14px;
 	line-height: 18px;
 	margin-bottom: 0;
+	color: #FFF;
 }
 .portfolio_items article h4 a {
 	color: #fff;
@@ -2763,4 +2768,8 @@ article.testi_post .post_content {
 article.testi_post .post_content > .icon-quote-left {color: #373737;float: left; margin-right: 9px; font-size: 22px; line-height: 20px;}
 #mainpage_accordion_area .testi_post .post_header {
 	margin-bottom: 20px;
+}
+
+.post_body.resume_post_body p , .content_text p, article p{
+	text-align: justify;
 }

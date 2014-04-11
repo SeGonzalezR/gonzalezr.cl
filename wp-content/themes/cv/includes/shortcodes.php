@@ -819,13 +819,13 @@ function sc_contact_form($atts, $content = null) {
 	return '
 			<div ' . ($id ? ' id="' . $id . '"' : '') . 'class="sc_contact_form">
 				'
-				. ($title ? '<h3 class="title">' . $title . '</h3>' : '')
+				. ($title ? '<h3 class="title">Hey, mantengamonos en contacto.</h3>' : '')
 				. ($description ? '<span class="description">' . $description . '</span>' : '')
 				. 
 				'
 				<form' . ($id ? ' id="' . $id . '"' : '') . ' method="post" action="' . $ajax_url . '">
 					<div class="field">
-						<label for="sc_contact_form_username" class="required">' . __('Name', 'wpspace') . '</label>
+						<label for="sc_contact_form_username" class="required">' . __('Nombre', 'wpspace') . '</label>
 						<input type="text" id="sc_contact_form_username" name="username">
                     </div>
 					<div class="field">
@@ -833,11 +833,11 @@ function sc_contact_form($atts, $content = null) {
 						<input type="text" id="sc_contact_form_email" name="email">
                     </div>
 					<div class="field message">
-						<label for="sc_contact_form_message" class="required">' . __('Your Message', 'wpspace') . '</label>
+						<label for="sc_contact_form_message" class="required">' . __('Escribe tu mensaje!', 'wpspace') . '</label>
 						<textarea id="sc_contact_form_message" name="message"></textarea>
                     </div>
 					<div class="button">
-						<a href="#" class="enter"><span>' . __('Submit', 'wpspace') . '</span></a>
+						<a href="#" class="enter"><span>' . __('Enviar', 'wpspace') . '</span></a>
                     </div>
 				</form>
 				<div class="result sc_infobox"></div>
@@ -899,10 +899,10 @@ function sc_contact_form($atts, $content = null) {
 							.toggleClass("sc_infobox_style_error", false)
 							.toggleClass("sc_infobox_style_success", false);
 						if (rez.error == "") {
-							jQuery(".sc_contact_form .result").addClass("sc_infobox_style_success").html("' . __('Your message has been sent.', 'wpspace') . '");
+							jQuery(".sc_contact_form .result").addClass("sc_infobox_style_success").html("' . __('Tu mensaje ha sido enviado, pronto te responderé!.', 'wpspace') . '");
 							setTimeout("jQuery(\'.sc_contact_form .result\').fadeOut(); jQuery(\'.sc_contact_form form\').get(0).reset();", 3000);
 						} else {
-							jQuery(".sc_contact_form .result").addClass("sc_infobox_style_error").html("' . __('Transmit failed!', 'wpspace').' " + rez.error);
+							jQuery(".sc_contact_form .result").addClass("sc_infobox_style_error").html("' . __('Ouch, ha ocurrido un error!', 'wpspace').' " + rez.error);
 						}
 						jQuery(".sc_contact_form .result").fadeIn();
 					}
@@ -933,14 +933,16 @@ function submit_contact_form_callback() {
 		$contact_email = get_theme_option('user_email');	
 	
 	if (trim($contact_email)!='') {
-		$subj = sprintf(__('Site %s - Contact form message from %s', 'wpspace'), get_bloginfo('site_name'), $user_name);
+		// $subj = sprintf(__('Site %s - Contact form message from %s', 'wpspace'), get_bloginfo('site_name'), $user_name);
+		$subj = sprintf(__('[Contacto Gonzalezr.cl] - %s', 'wpspace'), $user_name);
 		$msg = "
-Name: $user_name
-E-mail: $user_email
-
-Message: $user_msg
-
-............ " . get_bloginfo('site_name') . " (" . home_url() . ") ............";
+				Nombre: $user_name <br/>
+				E-mail: $user_email <br/>
+				<br/>
+				Mensaje: $user_msg 
+				<br/><br/>
+				<br/><br/>
+				............ (" . home_url() . ") ............";
 	
 		$head = "Content-Type: text/plain; charset=\"utf-8\"\n"
 			. "X-Mailer: PHP/" . phpversion() . "\n"
@@ -949,9 +951,33 @@ Message: $user_msg
 			. "From: $user_email\n"
 			. "Subject: $subj\n";
 	
-		if (!@mail($contact_email, $subj, $msg, $head)) {
-			$response['error'] = 'Error send message!';
+		// Setup email header
+		include_once('scripts/contact/phpmailer/class.phpmailer.php');
+		$mail = new PHPMailer();
+
+		$mail->CharSet = "UTF-8";
+		$mail->IsSMTP(); 								// telling the class to use SMTP
+		$mail->SMTPAuth   = true;                  		// enable SMTP authentication
+		$mail->Host       = "smtp.mandrillapp.com"; 	// sets the SMTP server
+		$mail->Port       = 587;                    	// set the SMTP port for the GMAIL server
+		$mail->Username   = "q-team@querys.cl"; 		// SMTP account username
+		$mail->Password   = "W9p_BBrThKyrin284Ie36w";   // SMTP account password
+
+		$mail->SetFrom($user_email, 	$user_name);
+		$mail->AddReplyTo($user_email,	$user_name);
+		
+		$mail->Subject    = $subj;
+		$mail->MsgHTML($msg);
+
+		$mail->AddAddress($contact_email, " ");
+
+		if(!$mail->Send()) {
+		  	$response['error'] = 'Error send message!';
 		}
+
+		// if (!@mail($contact_email, $subj, $msg, $head)) {
+		// 	$response['error'] = 'Error send message!';
+		// }
 	} else 
 			$response['error'] = 'Error send message!';
 

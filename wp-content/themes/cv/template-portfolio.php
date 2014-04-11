@@ -8,7 +8,7 @@
 		'post_password' => '',
 		'posts_per_page' => -1,	//max(3, get_theme_option('portfolio_ppp')),
 		'orderby' => 'date',
-		'order' => 'desc'
+		'order' => 'name'
 	);
 	$query = new WP_Query($args); 
 	$post_number = 0;
@@ -23,6 +23,9 @@
 					<h2 class="section_title portfolio_section_title"><a href="#"><span class="icon icon-briefcase"></span><span class="section_name"><?php echo $portfolio_title; ?></span></a><span class="section_icon"></span></h2>
 				</div>
 				<div class="section_body portfolio_section_body">
+					<h3>No soy diseñador, pero me especializo en Desarrollo Web</h3>
+					<p>Mi portafolio es muy particular, no consta de trabajos en los que haya diseñado. Sino que está enfocado principalmente en los sitios donde desarrollé soluciones a cada requerimiento del cliente. </p>
+					<p>Mas abajo podrás encontrar algunos de los desarrollos realizados en el último tiempo.</p>
 				<?php
 				while ($query->have_posts()) {
 					$query->the_post();
@@ -70,7 +73,7 @@
 									' . $post_thumb . '
 								</a>
 							</div>
-							<h4 class="post_title">' . $post_title . '</h4>
+							<h4 class="post_title"><a href="http://www.'.$post_title.'" target="_blank">' . $post_title . '</a></h4>
 							<h5 class="post_subtitle">' . $post_cats . '</h5>';
 					if($post_content) {							
 					$items_output .='		
@@ -94,7 +97,7 @@
 							wp_enqueue_script( 'isotope', get_template_directory_uri() . '/js/jquery.isotope.min.js', array('jquery'), '1.5.25', true );
 							?>
 							<ul id="portfolio_iso_filters">
-								<li><a href="#" data-filter="*" class="current">All</a></li>
+								<li><a href="#" data-filter="*" class="current">Todo</a></li>
 								<?php echo $iso_selector; ?>
 							</ul>
 							<script>
