@@ -46,7 +46,7 @@
 					$post_classes = '';
 					$post_content = '';
 					if(get_theme_option('portfolio_excerpt')) {
-						$post_content = getShortString(get_the_excerpt(), 100, '');
+						$post_content = getShortString(get_the_excerpt(), 115, '');
 					}
 					$sz = '';
                     $post_custom = get_post_custom($post_id);
