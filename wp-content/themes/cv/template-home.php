@@ -42,7 +42,7 @@ $mult = min(2, max(1, get_theme_option("retina_ready")));
 						$user_company = get_theme_option('user_company');
 						$user_description = get_theme_option('user_description');
 						$profile_title = get_theme_option('profile_title');
-						$user_photo = "https://graph.facebook.com/sebastian.gonzalez.r/picture?type=large&width=250&height=250";
+						// $user_photo = "https://graph.facebook.com/sebastian.gonzalez.r/picture?type=large&width=250&height=250";
 					?>
 					<h2 class="section_title profile_section_title vis"><a href="#"><span class="icon icon-user"></span><span class="section_name"><?php echo $profile_title; ?></span></a><span class="section_icon"></span></h2>
 					<div id="profile_header">
